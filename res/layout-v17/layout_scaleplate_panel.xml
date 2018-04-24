@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@r$color/colorBlackBackground" app:padding="4dp" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.lee.ultrascan.ui.view.ScaleplateView app:id="@r$id/layout_scale_plate_panel_scaleplate" app:layout_width="wrap_content" app:layout_height="match_parent" app:direction="right_to_left" app:unitString="cm" app:startValue="0.0" app:endValue="18.5" app:flip="true" />
+    <ImageView app:id="@r$id/battery_iv" app:visibility="invisible" app:layout_width="UNKNOWN_DATA_0x7f0a0012" app:layout_height="UNKNOWN_DATA_0x7f0a0012" app:src="@r$drawable/ic_battery_20" app:layout_alignLeft="@r$id/layout_scale_plate_panel_colorramp" app:layout_alignRight="@r$id/layout_scale_plate_panel_colorramp" app:contentDescription="0x0" />
+    <com.lee.ultrascan.ui.view.ColorRampView app:id="@r$id/layout_scale_plate_panel_colorramp" app:layout_width="UNKNOWN_DATA_0x7f0a0024" app:layout_height="UNKNOWN_DATA_0xc801" app:layout_margin="8dp" app:layout_toRightOf="@r$id/layout_scale_plate_panel_scaleplate" app:layout_below="@r$id/battery_iv" app:layout_toEndOf="@r$id/layout_scale_plate_panel_scaleplate" app:direction="right_to_left" />
+</RelativeLayout>

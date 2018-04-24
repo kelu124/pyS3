@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <RelativeLayout app:padding="16dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x5001">
+        <TextView app:textSize="18sp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@r$string/dialog_user_setting_operation_label" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+        <ToggleButton app:textColor="0x106000b" app:id="@r$id/dialog_user_settings_layout_toggle" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="match_parent" app:layout_marginLeft="8dp" app:layout_marginRight="8dp" app:textOn="@r$string/setting_layout_toggle_left" app:textOff="@r$string/setting_layout_toggle_right" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout app:orientation="horizontal" app:padding="16dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x5001">
+        <TextView app:textSize="18sp" app:id="@r$id/dialog_user_settings_sleep_tv" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@r$string/dialog_sleep_setting_label" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+        <com.vi.swipenumberpicker.SwipeNumberPicker app:id="@r$id/dialog_user_settings_sleep_time_numberpicker" app:background="@r$color/textSecondary" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="match_parent" app:layout_marginLeft="8dp" app:layout_marginRight="8dp" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:snp_min="1" app:snp_max="10" app:snp_value="1" app:snp_arrowColor="0x106000b" app:snp_backgroundColor="@r$color/textSecondary" app:snp_numberColor="0x106000b" />
+    </RelativeLayout>
+</LinearLayout>

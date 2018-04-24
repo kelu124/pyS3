@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="BBP_CONTROL_WORD">
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_DIN_INCREMENT" android:key="BBP_CTL_DIN_INCREMENT_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_DZONE_ZERO" android:key="BBP_CTL_DZONE_ZERO_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_DC_BYPASS" android:key="BBP_CTL_DC_BYPASS_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_ABS0_BYPASS" android:key="BBP_CTL_ABS0_BYPASS_KEY" android:defaultValue="true" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_DCONV_BYPASS" android:key="BBP_CTL_DCONV_BYPASS_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_CIC_BYPASS" android:key="BBP_CTL_CIC_BYPASS_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_DECI0_BYPASS" android:key="BBP_CTL_DECI0_BYPASS_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_DECI0_INCREMENT" android:key="BBP_CTL_DECI0_INCREMENT_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_LPF_BYPASS" android:key="BBP_CTL_LPF_BYPASS_KEY" android:defaultValue="true" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_ENV_BYPASS" android:key="BBP_CTL_ENV_BYPASS_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_ENV_BYPASS_BY_DI" android:key="BBP_CTL_ENV_BYPASS_BY_DI_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_DECI1_BYPASS" android:key="BBP_CTL_DECI1_BYPASS_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_DECI1_INCREMENT" android:key="BBP_CTL_DECI1_INCREMENT_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_ABS1_BYPASS" android:key="BBP_CTL_ABS1_BYPASS_KEY" android:defaultValue="true" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_LOG_BYPASS" android:key="BBP_CTL_LOG_BYPASS_KEY" android:defaultValue="false" />
+        <com.lee.ultrascan.ui.SwitchPreference android:title="BBP_CTL_LOG_INCREMENT" android:key="BBP_CTL_LOG_INCREMENT_KEY" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="6" android:numeric="integer|signed|decimal" android:title="BBP_DC_COE" android:key="BBP_DC_COE_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="2" android:numeric="integer|signed|decimal" android:title="FMOTOR_DOCK_NDIR_PHASE" android:key="FMOTOR_DOCK_NDIR_PHASE_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="3" android:numeric="integer|signed|decimal" android:title="POWER_OFF_MINUTES" android:key="POWER_OFF_MINUTES_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="3" android:numeric="integer|signed|decimal" android:title="ALERT_VOLTAGE_LOW" android:key="ALERT_VOLTAGE_LOW_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="3" android:numeric="integer|signed|decimal" android:title="ALERT_VOLTAGE_CANCEL" android:key="ALERT_VOLTAGE_CANCEL_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="3" android:numeric="integer|signed|decimal" android:title="ALERT_VOLTAGE_CANCEL" android:key="ALERT_VOLTAGE_CANCEL_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="2" android:numeric="integer|signed|decimal" android:title="TX_HALF_PERIOD" android:key="TX_HALF_PERIOD_KEY" />
+        <com.lee.ultrascan.ui.FloatEditTextPreference android:title="BBP_DELTA_PHASE" android:key="BBP_DELTA_PHASE_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="1" android:numeric="integer|signed|decimal" android:title="TX_CYCLES" android:key="TX_CYCLES_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="3" android:numeric="integer|signed|decimal" android:title="RX_LINE_PER_FRAME" android:key="RX_LINE_PER_FRAME_KEY" />
+        <com.lee.ultrascan.ui.IntEditTextPreference android:maxLength="5" android:numeric="integer|signed|decimal" android:title="RX_LINE_PRT" android:key="RX_LINE_PRT_KEY" />
+    </PreferenceCategory>
+</PreferenceScreen>

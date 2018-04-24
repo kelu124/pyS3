@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="false" android:drawable="@r$drawable/ic_video_black" />
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@r$drawable/ic_video_white" />
+    <item android:state_enabled="false" android:drawable="@r$drawable/ic_video_gray" />
+</selector>

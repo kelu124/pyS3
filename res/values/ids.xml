@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_bar_spinner" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="auto_focus" />
+    <item type="id" name="colorpicker_colorwheel_Id" />
+    <item type="id" name="colorpicker_siderborder_Id" />
+    <item type="id" name="decode" />
+    <item type="id" name="decode_failed" />
+    <item type="id" name="decode_succeeded" />
+    <item type="id" name="encode_failed" />
+    <item type="id" name="encode_succeeded" />
+    <item type="id" name="home" />
+    <item type="id" name="item_touch_helper_previous_elevation" />
+    <item type="id" name="launch_product_query" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="quit" />
+    <item type="id" name="restart_preview" />
+    <item type="id" name="return_scan_result" />
+    <item type="id" name="search_book_contents_failed" />
+    <item type="id" name="search_book_contents_succeeded" />
+    <item type="id" name="split_action_bar" />
+    <item type="id" name="textinput_counter" />
+    <item type="id" name="textinput_error" />
+    <item type="id" name="transition_current_scene" />
+    <item type="id" name="transition_scene_layoutid_cache" />
+    <item type="id" name="up" />
+    <item type="id" name="view_offset_helper" />
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="buttonPanel">false</item>
+    <item type="id" name="spacer">false</item>
+    <item type="id" name="parentPanel">false</item>
+    <item type="id" name="contentPanel">false</item>
+    <item type="id" name="scrollIndicatorUp">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="textSpacerNoTitle">false</item>
+    <item type="id" name="textSpacerNoButtons">false</item>
+    <item type="id" name="scrollIndicatorDown">false</item>
+    <item type="id" name="customPanel">false</item>
+    <item type="id" name="custom">false</item>
+    <item type="id" name="topPanel">false</item>
+    <item type="id" name="title_template">false</item>
+    <item type="id" name="alertTitle">false</item>
+    <item type="id" name="titleDividerNoCustom">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="submenuarrow">false</item>
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_mode_bar_stub">false</item>
+    <item type="id" name="action_mode_bar">false</item>
+    <item type="id" name="decor_content_parent">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="select_dialog_listview">false</item>
+    <item type="id" name="activity_main_coordinator_layout">false</item>
+    <item type="id" name="activity_main_layout">false</item>
+    <item type="id" name="activity_main_player_panel">false</item>
+    <item type="id" name="activity_main_state_panel">false</item>
+    <item type="id" name="activity_main_scaleplate_panel">false</item>
+    <item type="id" name="activity_main_frame_panel">false</item>
+    <item type="id" name="fl_zxing_container">false</item>
+    <item type="id" name="activity_main_frame_fiv">false</item>
+    <item type="id" name="activity_main_frame_roi_touch_view">false</item>
+    <item type="id" name="activity_main_preg_measure_view">false</item>
+    <item type="id" name="activity_main_loaded_screenshot_iv">false</item>
+    <item type="id" name="smallLabel">false</item>
+    <item type="id" name="largeLabel">false</item>
+    <item type="id" name="touch_outside">false</item>
+    <item type="id" name="design_bottom_sheet">false</item>
+    <item type="id" name="snackbar_text">false</item>
+    <item type="id" name="snackbar_action">false</item>
+    <item type="id" name="navigation_header_container">false</item>
+    <item type="id" name="design_navigation_view">false</item>
+    <item type="id" name="design_menu_item_text">false</item>
+    <item type="id" name="design_menu_item_action_area_stub">false</item>
+    <item type="id" name="design_menu_item_action_area">false</item>
+    <item type="id" name="text_input_password_toggle">false</item>
+    <item type="id" name="dialog_ap_et">false</item>
+    <item type="id" name="dialog_pwd_et">false</item>
+    <item type="id" name="dialog_save_report_time_tv">false</item>
+    <item type="id" name="dialog_save_report_id_title">false</item>
+    <item type="id" name="dialog_save_report_id_et">false</item>
+    <item type="id" name="dialog_save_report_preg_title">false</item>
+    <item type="id" name="dialog_save_report_remarks_et">false</item>
+    <item type="id" name="dialog_save_report_preg_checkbox">false</item>
+    <item type="id" name="dialog_save_report_iv">false</item>
+    <item type="id" name="dialog_user_settings_layout_toggle">false</item>
+    <item type="id" name="dialog_user_settings_sleep_tv">false</item>
+    <item type="id" name="dialog_user_settings_sleep_time_numberpicker">false</item>
+    <item type="id" name="preview_view">false</item>
+    <item type="id" name="viewfinder_view">false</item>
+    <item type="id" name="connecting_progressbar">false</item>
+    <item type="id" name="time_tv">false</item>
+    <item type="id" name="pt_bf_tv">false</item>
+    <item type="id" name="scan_id_iv">false</item>
+    <item type="id" name="id_tv">false</item>
+    <item type="id" name="layout_state_panel_info_freq_title">false</item>
+    <item type="id" name="layout_state_panel_info_freq_tv">false</item>
+    <item type="id" name="layout_state_panel_info_depth_title">false</item>
+    <item type="id" name="layout_state_panel_info_depth_tv">false</item>
+    <item type="id" name="layout_state_panel_info_tgc_title">false</item>
+    <item type="id" name="layout_state_panel_info_tgc_tv">false</item>
+    <item type="id" name="preg_days_tv">false</item>
+    <item type="id" name="backfat_tv">false</item>
+    <item type="id" name="freeze_hint_tv">false</item>
+    <item type="id" name="material_background">false</item>
+    <item type="id" name="contentView">false</item>
+    <item type="id" name="message_content_root">false</item>
+    <item type="id" name="message_content_view">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="buttonLayout">false</item>
+    <item type="id" name="btn_n">false</item>
+    <item type="id" name="btn_p">false</item>
+    <item type="id" name="layout_player_panel_buttons_constraintlayout">false</item>
+    <item type="id" name="layout_player_panel_seekbar">false</item>
+    <item type="id" name="layout_player_panel_setting_button">false</item>
+    <item type="id" name="layout_player_panel_openfile_button">false</item>
+    <item type="id" name="layout_player_panel_save_image_button">false</item>
+    <item type="id" name="layout_player_panel_save_video_button">false</item>
+    <item type="id" name="layout_player_panel_play_button">false</item>
+    <item type="id" name="layout_player_panel_frame_tv">false</item>
+    <item type="id" name="layout_scale_plate_panel_scaleplate">false</item>
+    <item type="id" name="battery_iv">false</item>
+    <item type="id" name="layout_scale_plate_panel_colorramp">false</item>
+    <item type="id" name="layout_state_panel_banner">false</item>
+    <item type="id" name="layout_state_panel_backfat_btn">false</item>
+    <item type="id" name="layout_state_panel_preg_btn">false</item>
+    <item type="id" name="layout_state_panel_depth_up_btn">false</item>
+    <item type="id" name="layout_state_panel_depth_down_btn">false</item>
+    <item type="id" name="layout_state_panel_scan_freeze_togglebtn">false</item>
+    <item type="id" name="layout_state_panel_pt_bf_btn">false</item>
+    <item type="id" name="layout_state_panel_tgc_seekbar">false</item>
+    <item type="id" name="action_container">false</item>
+    <item type="id" name="action_image">false</item>
+    <item type="id" name="action_text">false</item>
+    <item type="id" name="action0">false</item>
+    <item type="id" name="cancel_action">false</item>
+    <item type="id" name="status_bar_latest_event_content">false</item>
+    <item type="id" name="media_actions">false</item>
+    <item type="id" name="action_divider">false</item>
+    <item type="id" name="notification_main_column_container">false</item>
+    <item type="id" name="notification_main_column">false</item>
+    <item type="id" name="right_side">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="chronometer">false</item>
+    <item type="id" name="info">false</item>
+    <item type="id" name="right_icon">false</item>
+    <item type="id" name="notification_background">false</item>
+    <item type="id" name="actions">false</item>
+    <item type="id" name="icon_group">false</item>
+    <item type="id" name="line1">false</item>
+    <item type="id" name="text2">false</item>
+    <item type="id" name="line3">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="end_padder">false</item>
+    <item type="id" name="visible">false</item>
+    <item type="id" name="masked">false</item>
+    <item type="id" name="nav_camera">false</item>
+    <item type="id" name="nav_gallery">false</item>
+    <item type="id" name="nav_slideshow">false</item>
+    <item type="id" name="nav_manage">false</item>
+    <item type="id" name="nav_share">false</item>
+    <item type="id" name="nav_send">false</item>
+</resources>

@@ -1,0 +1,70 @@
+package org.bytedeco.javacpp;
+
+public class opencv_flann extends org.bytedeco.javacpp.presets.opencv_flann {
+    public static final int AUTOTUNED = 255;
+    public static final int CENTERS_GONZALES = 1;
+    public static final int CENTERS_KMEANSPP = 2;
+    public static final int CENTERS_RANDOM = 0;
+    public static final int COMPOSITE = 3;
+    public static final int CS = 7;
+    public static final int EUCLIDEAN = 1;
+    public static final int FLANN_CENTERS_GONZALES = 1;
+    public static final int FLANN_CENTERS_GROUPWISE = 3;
+    public static final int FLANN_CENTERS_KMEANSPP = 2;
+    public static final int FLANN_CENTERS_RANDOM = 0;
+    public static final int FLANN_CHECKS_AUTOTUNED = -2;
+    public static final int FLANN_CHECKS_UNLIMITED = -1;
+    public static final int FLANN_DIST_CHI_SQUARE = 7;
+    public static final int FLANN_DIST_CS = 7;
+    public static final int FLANN_DIST_EUCLIDEAN = 1;
+    public static final int FLANN_DIST_HAMMING = 9;
+    public static final int FLANN_DIST_HELLINGER = 6;
+    public static final int FLANN_DIST_HIST_INTERSECT = 5;
+    public static final int FLANN_DIST_KL = 8;
+    public static final int FLANN_DIST_KULLBACK_LEIBLER = 8;
+    public static final int FLANN_DIST_L1 = 2;
+    public static final int FLANN_DIST_L2 = 1;
+    public static final int FLANN_DIST_MANHATTAN = 2;
+    public static final int FLANN_DIST_MAX = 4;
+    public static final int FLANN_DIST_MINKOWSKI = 3;
+    public static final int FLANN_FLOAT32 = 8;
+    public static final int FLANN_FLOAT64 = 9;
+    public static final int FLANN_INDEX_AUTOTUNED = 255;
+    public static final int FLANN_INDEX_COMPOSITE = 3;
+    public static final int FLANN_INDEX_HIERARCHICAL = 5;
+    public static final int FLANN_INDEX_KDTREE = 1;
+    public static final int FLANN_INDEX_KDTREE_SINGLE = 4;
+    public static final int FLANN_INDEX_KMEANS = 2;
+    public static final int FLANN_INDEX_LINEAR = 0;
+    public static final int FLANN_INDEX_LSH = 6;
+    public static final int FLANN_INDEX_SAVED = 254;
+    public static final int FLANN_INT16 = 1;
+    public static final int FLANN_INT32 = 2;
+    public static final int FLANN_INT64 = 3;
+    public static final int FLANN_INT8 = 0;
+    public static final int FLANN_LOG_ERROR = 2;
+    public static final int FLANN_LOG_FATAL = 1;
+    public static final int FLANN_LOG_INFO = 4;
+    public static final int FLANN_LOG_NONE = 0;
+    public static final int FLANN_LOG_WARN = 3;
+    public static final int FLANN_UINT16 = 5;
+    public static final int FLANN_UINT32 = 6;
+    public static final int FLANN_UINT64 = 7;
+    public static final int FLANN_UINT8 = 4;
+    public static final int HELLINGER = 6;
+    public static final int HIST_INTERSECT = 5;
+    public static final int KDTREE = 1;
+    public static final int KDTREE_SINGLE = 4;
+    public static final int KL = 8;
+    public static final int KMEANS = 2;
+    public static final int KULLBACK_LEIBLER = 8;
+    public static final int LINEAR = 0;
+    public static final int MANHATTAN = 2;
+    public static final int MAX_DIST = 4;
+    public static final int MINKOWSKI = 3;
+    public static final int SAVED = 254;
+
+    static {
+        Loader.load();
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="280dp"
+    <LinearLayout android:orientation="vertical" android:id="@id/material_background" android:background="@drawable/material_card" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:id="@id/contentView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="23sp" android:textColor="@color/black_de" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="23dp" android:layout_marginTop="23dp" android:layout_marginRight="24dp" />
+            <ScrollView android:id="@id/message_content_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_weight="1.0">
+                <LinearLayout android:id="@id/message_content_view" android:paddingLeft="24dp" android:paddingRight="23dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="#8a000000" android:id="@id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.3" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/buttonLayout" android:paddingTop="8dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+            <Button android:textColor="@color/black_de" android:id="@id/btn_n" android:stateListAnimator="0x0" style="@style/ActionButton" />
+            <Button android:textColor="#ff239ff2" android:id="@id/btn_p" android:layout_marginLeft="2dp" android:layout_marginRight="12dp" android:stateListAnimator="0x0" style="@style/ActionButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="wrap_content" android:text="@r$string/dialog_new_ap" />
+        <EditText android:id="@r$id/dialog_ap_et" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="12" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7801" android:layout_height="wrap_content" android:text="@r$string/dialog_new_pwd" />
+        <EditText android:id="@r$id/dialog_pwd_et" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="12" />
+    </LinearLayout>
+</LinearLayout>

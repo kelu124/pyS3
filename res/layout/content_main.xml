@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@r$color/colorBlackBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lee.ultrascan.ui.view.FrameImageView android:id="@r$id/activity_main_frame_fiv" android:background="@r$color/colorBlackBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="0x0" />
+    <View app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@r$id/activity_main_frame_roi_touch_view" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_widthPercent="25%" app:layout_heightPercent="50%" />
+    <include app:layout_width="match_parent" app:layout_height="wrap_content" layout="@r$layout/layout_info_panel" />
+    <com.lee.ultrascan.ui.view.PregMeasureView app:id="@r$id/activity_main_preg_measure_view" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" />
+    <ImageView app:id="@r$id/activity_main_loaded_screenshot_iv" app:visibility="gone" app:clickable="true" app:layout_width="match_parent" app:layout_height="match_parent" app:contentDescription="0x0" />
+</android.support.percent.PercentFrameLayout>
